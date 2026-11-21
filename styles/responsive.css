@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 2.2rem;
+    }
+    .nav-list {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    .content-section {
+        padding: 1.5rem;
+    }
+    .section-title {
+        font-size: 1.7rem;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    .timeline-item::after {
+        left: 21px;
+    }
+    .timeline-item:nth-child(odd)::after,
+    .timeline-item:nth-child(even)::after {
+        left: 21px;
+    }
+    .causes-grid {
+        grid-template-columns: 1fr;
+    }
+    .battle-cards {
+        grid-template-columns: 1fr;
+    }
+    .consequences-grid {
+        grid-template-columns: 1fr;
+    }
+    .question {
+        padding: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .site-title {
+        font-size: 1.8rem;
+    }
+    .site-subtitle {
+        font-size: 1rem;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .content-section {
+        padding: 1rem;
+    }
+    .theme-switch {
+        position: static;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+}

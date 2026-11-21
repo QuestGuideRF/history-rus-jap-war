@@ -1,0 +1,89 @@
+body.dark-theme {
+    --bg-color: #121212;
+    --surface-color: #1e1e1e;
+    --surface-color-light: #2d2e30;
+    --primary-color: #8ab4f8;
+    --secondary-color: #f28b82;
+    --accent-color: #f28b82;
+    --on-bg-color: #e8eaed;
+    --on-surface-color: #e8eaed;
+    --border-color: #5f6368;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+body.dark-theme {
+    background-color: var(--bg-color);
+    color: var(--on-bg-color);
+}
+body.dark-theme .header {
+    background: var(--surface-color);
+}
+body.dark-theme .navigation {
+    background-color: var(--surface-color-light);
+}
+body.dark-theme .content-section {
+    background-color: var(--surface-color);
+    color: var(--on-surface-color);
+}
+body.dark-theme .section-title {
+    color: var(--primary-color);
+    border-bottom-color: var(--border-color);
+}
+body.dark-theme .highlight-box {
+    background-color: var(--surface-color-light);
+    border-left-color: var(--accent-color);
+}
+body.dark-theme .timeline-content {
+    background-color: var(--surface-color-light);
+}
+body.dark-theme .timeline-content h3 {
+    color: var(--primary-color);
+}
+body.dark-theme .cause-card,
+body.dark-theme .battle-card,
+body.dark-theme .consequence-card {
+    background-color: var(--surface-color-light);
+}
+body.dark-theme .cause-card h3,
+body.dark-theme .battle-card h3,
+body.dark-theme .consequence-card h3 {
+    color: var(--primary-color);
+}
+body.dark-theme .question {
+    background-color: var(--surface-color-light);
+}
+body.dark-theme .question h3 {
+    color: var(--primary-color);
+}
+body.dark-theme .option {
+    background-color: var(--surface-color);
+    border-color: var(--border-color);
+    color: var(--on-surface-color);
+}
+body.dark-theme .option:hover {
+    background-color: var(--surface-color-light);
+    border-color: var(--accent-color);
+}
+body.dark-theme .option.selected {
+    background-color: var(--surface-color-light);
+    border-color: var(--accent-color);
+}
+body.dark-theme .option.correct {
+    background-color: rgba(39, 174, 96, 0.2);
+    border-color: #27ae60;
+}
+body.dark-theme .option.incorrect {
+    background-color: rgba(231, 76, 60, 0.2);
+    border-color: #e74c3c;
+}
+body.dark-theme .result {
+    background-color: var(--surface-color-light);
+}
+body.dark-theme .result h3 {
+    color: var(--primary-color);
+}
+body.dark-theme .footer {
+    background-color: var(--surface-color);
+}
+body.dark-theme .sources-list li::before {
+    color: var(--accent-color);
+}
